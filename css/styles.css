@@ -494,9 +494,6 @@ body {
   margin-bottom: 0;
 }
 
-.sect-one-decoration-line {
-}
-
 .decoration-item-gift {
   color: var(--white, #f6f6f6);
   font-family: Fixel;
@@ -517,6 +514,12 @@ body {
   height: 25px;
 
   margin-left: 20px;
+}
+
+.fotona-image {
+  max-width: 428px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* section-four */
@@ -850,11 +853,11 @@ body {
 .content p {
   margin-top: 20px;
 
-  color: #0e0e0e;
-  font-family: Manrope;
+  color: var(--black, #090909);
+  font-family: Fixel;
   font-size: 15px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 120%; /* 18px */
 }
 
