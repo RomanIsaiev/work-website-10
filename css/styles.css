@@ -118,7 +118,6 @@ body {
 .decoration-container {
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 10px;
 }
 
@@ -129,7 +128,7 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
-  line-height: 110%; /* 17.6px */
+  line-height: 120%; /* 17.6px */
   text-transform: lowercase;
 }
 
@@ -572,6 +571,8 @@ body {
   font-style: normal;
   font-weight: 600;
   line-height: 120%; /* 19.2px */
+
+  margin-bottom: 20px;
 }
 
 .four-wrapper-list {
