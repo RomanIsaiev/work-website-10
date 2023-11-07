@@ -726,6 +726,20 @@ body {
 
   margin-left: auto;
   margin-right: auto;
+
+  animation: pulseScale 2000ms infinite;
+}
+
+@keyframes pulseScale {
+  0% {
+    scale: 1;
+  }
+  50% {
+    scale: 1.08;
+  }
+  100% {
+    scale: 1;
+  }
 }
 
 /* section-five */
