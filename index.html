@@ -513,7 +513,9 @@
               Встигніть придбати зі <span>знижкою 34%</span>
             </p>
           </div>
-          <button class="buy-button" type="button">ПЕРЕЙТИ ДО ПОКУПКИ</button>
+          <button class="buy-button" type="button" data-action="open-modal">
+            ПЕРЕЙТИ ДО ПОКУПКИ
+          </button>
           <div class="sect-one-decoration-line"></div>
         </div>
       </section>
@@ -725,8 +727,30 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop js-backdrop">
+      <div class="modal">
+        <button
+          class="modal-close-button"
+          type="button"
+          data-action="close-modal"
+        >
+          <img
+            src="./images/close-modal-icon.svg"
+            alt=""
+            width="30"
+            height="30"
+          />
+        </button>
+        <!-- <p class="modal-title">Оберіть зручний спосіб оплати:</p> -->
+        <div id="kwiga-widget-1699620399"></div>
+      </div>
+    </div>
     <script src="./js/jquery-3.7.0.min.js" type="module"></script>
     <script src="./js/faq.js" type="module"></script>
     <script src="./js/js-modal.js" type="module"></script>
+    <script
+      type="module"
+      src="https://kwiga.com/build/js/kwiga-widget.js?t=1699620399&uuid=33741aca-1a5a-4c21-b262-3de1f51953be&producer=https://kwiga.com/"
+    ></script>
   </body>
 </html>
